@@ -1,0 +1,622 @@
+* {
+    box-sizing: border-box;
+    /* background-color: rgb(300, 300, 300); */
+    
+}
+
+.clr{
+    clear: both;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+
+.container-head{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    margin-left: 15%;
+    /* margin-top: 3.5rem; */
+    padding: 0;
+    list-style: none;
+  } 
+
+  ul li{
+    display: inline;
+}
+
+ul li a{ 
+    color: #000;  
+    text-decoration: none;
+    font-size: 1rem;
+    padding-right: 30px;
+}
+
+.banner{
+    background-image:url("../images/officetable.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-top: 1.5rem;
+}
+
+.banner {
+    background-image: 
+      linear-gradient(
+        rgba(34, 10, 187, 0.5),
+        rgba(34, 10, 187, 0.5)
+      ),
+      url("../images/officetable.jpg");
+  }
+
+  .banner{
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .box-1{
+    flex: 2;
+   /* background-color: tomato; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.box-1 h1{
+    font-size:60px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: -100px;
+    margin-right: 12rem;
+}
+
+.box-1 p{
+    font-weight: bolder;
+    color: #fff;
+    margin-top: -30px;
+    margin-right: 14rem;
+}
+
+.box-2{
+    flex:1;
+    position: relative;
+    /* z-index: 2; */
+    /* background-color:#c7db9c; */
+}
+
+.button {
+    border: none;
+    color: white;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 70px;
+    padding-right: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 8px 9px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0.3rem;
+  } 
+
+  .button1 {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid #fff;
+    font-weight: bolder;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    font-weight: bolder;
+
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  .button{
+      display: flex;
+      align-self: flex-start;
+  }
+
+  /* html form */
+
+  input[type=text], select {
+    width: 80%;
+    padding: 20px 20px;
+    margin: 12px 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 80%;
+    background-color: #6c65c4;
+    color: white;
+    padding: 20px 20px;
+    margin: 10px 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 30x;
+    width: 75%;
+    margin-top:5rem ;
+    position: absolute;
+    top: 70px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+
+  .book-form{
+      padding: 1rem;
+      font-size: 20px;
+      padding-left: 2rem;
+  }
+
+  .form-txt{
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+      color:rgb(181, 178, 178);
+  }
+
+  .main-form{
+      width: 100%;
+  }
+
+  .send{
+      font-size: larger;
+      font-weight: bolder;
+  }
+  /* ..............container-2 start....................... */
+  .container-2{
+      display: flex;
+      /* background-color: grey; */
+  }
+
+  .we-do{
+      flex: 1;
+  }
+
+.what{
+     text-align: center;
+     padding-top: 10rem;
+     color:#8c8a8a;
+  }
+
+  .offer{
+      text-align: center;
+      font-size: 40px;
+      font-weight: bolder;
+  }
+
+/* ..................container-3.......................... */
+.container-3{
+    display: flex;
+}
+.services{
+    flex: 1;
+}
+
+.text-services{
+    color: #000;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.body-text{
+    padding-left: 4rem;
+    padding-right: 3rem;
+    text-align: center;
+    color:#8c8a8a;
+}
+.icon-1{
+    margin-left: 8rem;
+    margin-top: 6rem;
+}
+
+/* ...................container-4............................. */
+.container-4{
+    display: flex;
+}
+
+.about-1{
+    flex: 1;
+    /* background-color: hotpink; */
+}
+
+.about-2{
+    flex: 2;
+    /* background-color: khaki; */
+}
+
+.about-1{
+    background-image:url("../images/officetable.jpg");
+    height: 80vh;
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* margin:3rem 10rem; */
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+.about-1 {
+    background-image: 
+      linear-gradient(
+        rgba(9, 7, 19, 0.5),
+        rgba(9, 7, 19, 0.5)
+      ),
+      url("../images/officetable.jpg");
+  }
+
+.what-1{
+    text-align: justify;
+    padding-top: 14rem;
+    color:#8c8a8a;
+    padding-left: 7rem;
+    font-size: larger;
+    margin-top:2rem;
+ }
+
+ .offer-1{
+     text-align: justify;
+     font-size: 40px;
+     font-weight: bolder;
+     padding-left: 7rem;
+     line-height: 30px;
+ }
+
+ .body-text-1{
+    padding-left: 7rem;
+    padding-right: 3rem;
+    text-align: justify;
+    color:#8c8a8a;
+}
+
+#submit{
+    width: 20%;
+    margin-left: 7rem;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* ..........................container-5............................... */
+.container-5{
+    display: flex;
+}
+
+.img{
+    flex: 1;
+}
+.img{
+    background-image:url("../images/officetable.jpg");
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-top: 8rem;
+    position: relative;
+}
+.img {
+    background-image: 
+      linear-gradient(
+        rgba(9, 7, 19, 0.5),
+        rgba(9, 7, 19, 0.5)
+      ),
+      url("../images/officetable.jpg");
+  }
+  .facts{
+      text-align: center;
+      padding-top:12rem;
+      color: #fff;
+      font-size: 19px;
+      /* line-height: 30px; */
+  }
+  .achievements{
+      text-align: center;
+      font-size: 45px;
+      color: #fff;
+      line-height: 20px;
+  }
+  /*..................... container-6............................ */
+  .container-6{
+      display: flex;
+      width: 90%;
+      margin: auto;
+      position: relative;
+      bottom: 6rem;
+      /* top: 5rem; */
+      background-color: #fff;
+      margin-bottom: 5rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+  .number{
+      flex: 1;
+  }
+  .container-6 div{
+    border: 1px #ccc  solid;
+    padding:20px;
+}
+  .facts-float{
+    text-align: center;
+    color: #008CBA; 
+    font-size: 3rem;
+    line-height: 20px;
+    padding-top: 3rem;
+}
+.achievements-float{
+    text-align: center;
+    color:#8c8a8a;
+    font-size: 1.4rem;
+}
+/* ..........................container-7...................... */
+.container-7{
+    display: flex;
+    top: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    /* background-color: khaki; */
+}
+.container-7-box1{
+     flex: 2;
+    /* background-color: lavender; */
+}
+.container-7-box2{
+    flex: 1;
+    /* background: lawngreen; */
+}
+.inner-container{
+    display: flex;
+    /* background: lightcoral; */
+}
+.inner-container1{
+    flex: 1;
+}
+.why-us{
+    padding-left: 6rem;
+    color:#8c8a8a;
+    line-height: 10px;
+}
+.benefits{
+    padding-left:6rem;
+    font-size: 2.5rem;
+}
+.financial{
+    padding-left: 6rem;
+    padding-top: 3rem;
+}
+.now{
+    padding-left: 6rem;
+    color:#8c8a8a;
+}
+
+.container-7-box2{
+    background-image:url("../images/officetable.jpg");
+    height: 80vh;
+    width:50%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+} 
+.container-7-box2 {
+    background-image: 
+      linear-gradient(
+        rgba(9, 7, 19, 0.5),
+        rgba(9, 7, 19, 0.5)
+      ),
+      url("../images/officetable.jpg");
+  }
+
+/* ........................ontainers-8............................. */
+.container-8{
+    display: flex;
+    background:#f2f2f2;
+    padding: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(197, 192, 192, 0.6);
+    -o-box-shadow: 0 0 10px rgba(197, 192, 192, 0.6);
+}
+.testimonials{
+    flex: 1;
+}
+.testimonial-text{
+    text-align: center;
+    color: #8c8a8a;
+    font-size: 1.3rem;
+    line-height: 10%;
+}
+.testimonial-client{
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 5%;
+    padding:2rem ;
+}
+/* .......................container-9............................ */
+.container-9{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top:2rem;
+    position: relative;
+    padding: 60px;
+    bottom: 6rem;
+    /* top: 5rem; */
+    background-color: #fff;
+    margin-bottom: 6rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.number-9{
+    flex: 1;
+}
+.container-9 div{
+  border: 1px #ccc;
+  padding:20px;
+}
+.facts-float-9{
+  text-align:justify;
+  line-height: 10%;
+
+}
+.achievements-float-9{
+  text-align:justify;
+  color:#8c8a8a;
+
+  /* font-size: 1.4rem; */
+}
+/* ....................container-10.................. */
+
+.container-10{
+    display: flex;
+    justify-content: center;
+}
+.tbl{
+    display: flex;
+    width: 25%;
+    margin-left: -40px;
+    background-color: #f9faff;
+}
+.tbl-1{
+    display: flex;
+    /* flex: 1; */
+    width: 25%;
+    border:3px solid #008CBA;
+}
+
+  th, td {
+    padding: 19px;
+    text-align: left;
+    text-align:center;
+    font-size: larger;
+    border-bottom: rgb(233, 229, 229) 1px solid;
+  }
+
+  .accord{
+      width: 30%;
+      margin: auto;
+  }
+  .accord-1{
+    padding-bottom: 2rem;
+    font-size: 30px;
+  }
+
+  .tbl table{
+    border: rgb(233, 229, 229) 3px solid;
+  } 
+  .submit-1{
+      width: 62%;
+      margin-left: 20rem;
+      /* margin: auto; */
+      /* margin-right: 6px; */
+  }
+
+/* ..................container-11............................ */
+.container-11{
+    display: flex;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-top: 8rem;
+     position: relative;
+    background-image: 
+     linear-gradient(
+        rgba(2, 1, 9, 0.5),
+        rgba(9, 7, 19, 0.5)
+      ),
+      url("../images/officetable.jpg");
+     /* background-color: coral; */
+}
+
+.expert{
+    padding-left: 6rem;
+    padding-top: 8rem;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.member{
+    padding-left: 6rem;
+    color:#e4e3e3;
+    font-size: 1.2rem;
+}
+.submit-footer{
+    margin-left: 20%;
+    margin-top: 12%;
+}
+#submit-footer{
+    padding: 2rem;
+    background-color:#00be55;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+/* ..........................container-12....................... */
+.container-12{
+    display: flex;
+}
+.accounting{
+    flex: 2;
+    margin-top: 6rem;
+    margin-left: 5rem
+}
+.accounting-1{
+    display:flex;
+    flex: 1;
+    margin-top: 6rem;
+    margin-right: 5rem;
+}
+.contact{
+    flex: 1;
+}
+.con-serv{
+    font-weight: bolder;
+}
+
+
+
+ 
